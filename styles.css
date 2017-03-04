@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+h3 {
+	padding-top: 3%;
+}	
+
+p {
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+
+.content {
+	margin: 0 auto;
+        height: 100%;
+	width: 80%;
+	background-color: #b7eeff;
+	padding: 0;
+	text-align: center;
+}
+
+table {
+	border: 1px solid black;
+	height: 300px;
+	width: 300px;
+	margin: auto;
+}
+
+tr {
+	border: 1px solid black;
+        padding-top: 10%;
+}
+
+td {
+	border: 1px solid black;
+	background-color: green;
+	width: 33.33%;
+	height: 33.33%;
+        vertical-align: middle;
+}
+
+.cell {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.x {}
+.o {}
